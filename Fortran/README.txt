@@ -38,8 +38,11 @@ Compiling Instructions:
 
 	Assuming Dependencies are satisfied (See makefile for details), typical usage might be:
 
+		make singlerun
+		./singlerun.exe
+
 		make experimentrun
-		./experimentrun 	  
+		./experimentrun.exe 	  
 
 ==================================================================================================
 

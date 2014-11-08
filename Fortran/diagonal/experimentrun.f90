@@ -6,7 +6,7 @@
 program experimentrun
 
     ! ===================== Specify Equation Module Here ====================
-    use quasigeostrophic_mod,only: L,N,init,y0,Np,tspan,Fs,reference_methods,eqn_name,error_filter ! quasigeostrophic, nikolaevskiy, kuramoto, kdv
+    use quasigeostrophic_mod,only: L,N,init,y0,Np,tspan,Fs,reference_methods,eqn_name,error_filter ! quasigeostrophic_mod, nikolaevskiy_mod, kuramoto_mod, kdv_mod, nls_mod
     ! =======================================================================
 
     use tools_mod,   only: dp, chebpts, isfinite, write_rmatrix, write_rvector, write_cvector

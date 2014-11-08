@@ -1,8 +1,8 @@
 % load_data imports results from a Fortran Run
 clear; close all; clc;
 
-% kdv, quasigeostrophic, kuramoto, nikolaevskiy, nls
-eqn_name = 'kuramoto';
+% kuramoto, nikolaevskiy, quasigeostrophic, kdv, nls
+eqn_name = 'nls';
 save_dir = 'figures/';
 
 save_options = struct(              ...
